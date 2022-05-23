@@ -1,7 +1,7 @@
 name: flutter_termii
-description: A new Flutter package project.
+description: Flutter package for sending and verifying SMS/OTP.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Oshinowo/flutter_termii
 
 environment:
   sdk: ">=2.17.1 <3.0.0"

@@ -1,39 +1,60 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter plugin that helps businesses use messaging channels to verify and authenticate customer transactions
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Use this plugin in your Flutter app to:
+
+* Send message
+* Send Bulk message
+* Send Token
+* Send Voice Token
+* Voice Call
+* Generate In-App Token
+* Verify Token
+* View Balance
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+In order to use Termii's APIs, you need to first create an account for free at [www.termii.com](https://termii.com/).
+
+### BASE URL
+
+Your Termii account has its own Base URL, which you should use in all API requests.
+The base URL shown below is a sample base URL. Your base URL can be found on your [dashboard](https://accounts.termii.com/#/).
+
+### Retrieving your API Key
+
+Your API key can be obtained from your [Dashboard settings](https://accounts.termii.com/#/account/api).
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+To use this plugin, add `flutter_termii` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/)
+
+```yaml
+   dependencies:
+     flutter:
+       sdk: flutter
+     flutter_termii:
+```
 
 ```dart
-const like = 'sample';
+import 'package:flutter/material.dart';
+import 'package:flutter_termii/flutter_termii.dart';
+
+  final termii = Termii(
+    url: 'https://api.ng.termii.com',
+    apiKey: 'YOUR API KEY',
+    senderId: 'CompanyName',
+  );
+
+  final responseData = await termii.sendSms(
+      destination: _phonenumberController.text,
+      message: "This is a test message",
+    );
+
+    print(responseData);
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Termii helps deliver great customer messaging experience. You can deep dive into the [full API Reference Documentation](https://developers.termii.com/) to seamlessly integrate it's messaging channels and verification functionalities into your product.
