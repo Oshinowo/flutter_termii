@@ -1,9 +1,9 @@
 library flutter_termii;
 
+import 'src/network_helper.dart';
 import 'dart:convert';
 
-import 'network_helper.dart';
-
+/// An API to send and verify text/voice messages.
 class Termii {
   /// The base URL is used to route your request to the appropriate "regulatory region" and to optimize traffic between data centers with the region.
   final String url;

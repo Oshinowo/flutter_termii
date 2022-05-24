@@ -1,6 +1,8 @@
 # flutter_termii
 
-[![pub package](https://img.shields.io/pub/v/url_launcher.svg)](https://pub.dev/packages/flutter_termii)
+[![pub package][pub_badge]][pub_link]
+[![License: MIT][license_badge]][license_link]
+[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_badge_link]
 
 A Flutter plugin that helps developers use messaging channels to verify and authenticate customer transactions
 
