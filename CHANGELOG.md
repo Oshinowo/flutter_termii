@@ -1,3 +1,7 @@
+## 0.1.7
+
+* platforms update.
+
 ## 0.1.6
 
 * fixes.
