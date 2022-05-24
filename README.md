@@ -32,7 +32,7 @@ The base URL shown below is a sample base URL. Your base URL can be found on you
 
 ### Retrieving your API Key
 
-Your API key can be obtained from your [Dashboard settings](https://accounts.termii.com/#/account/api).
+Your API key can be obtained from your [dashboard settings](https://accounts.termii.com/#/account/api).
 
 ## Usage
 
