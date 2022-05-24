@@ -1,6 +1,6 @@
 name: flutter_termii
 description: Flutter package that helps developers use messaging channels to verify and authenticate customer transactions.
-version: 0.1.4
+version: 0.1.5
 homepage: https://github.com/Oshinowo/flutter_termii
 
 environment:
