@@ -1,6 +1,6 @@
 # Flutter Termii
 
-<p>
+<p align="left">
     <img title="Termii" src="https://termii.com/assets/images/logo.png"/>
 </p>
 
