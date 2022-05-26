@@ -14,7 +14,7 @@ A Flutter plugin that helps developers use messaging channels to verify and auth
 
 |             | Android | iOS  | Linux | macOS  | Web | Windows     |
 |-------------|---------|------|-------|--------|-----|-------------|
-| **Support** | Any     | Any  | Any   | Any    | Any | Any         |
+| **Support** |   Any   | Any  |  Any  |  Any   | Any |   Any       |
 
 ## Features
 
