@@ -1,3 +1,7 @@
+## 0.2.1
+
+* Update License.
+
 ## 0.2.0
 
 * update sdk.

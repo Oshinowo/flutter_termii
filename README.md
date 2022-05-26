@@ -1,8 +1,14 @@
-# flutter_termii
+# Flutter Termii
+
+<p>
+    <img title="Termii" src="https://termii.com/assets/images/logo.png"/>
+</p>
 
 [![pub package](https://img.shields.io/pub/v/flutter_termii.svg)](https://pub.dev/packages/flutter_termii)
-[![License: MIT](https://img.shields.io/badge/license-BSD.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![style: very good analysis](https://img.shields.io/badge/style-flutter_termii-B22C89.svg)](https://pub.dev/packages/flutter_termii)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
+
+---
 
 A Flutter plugin that helps developers use messaging channels to verify and authenticate customer transactions
 
@@ -64,6 +70,14 @@ final responseData = await termii.sendSms(
 
 print(responseData);
 ```
+
+## Credits
+
+Developed with 💙 by [Abdulazeez Oshinowo](https://github.com/Oshinowo/)
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/Oshinowo/flutter_termii/blob/main/LICENSE) for more information.
 
 ## Additional information
 
