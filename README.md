@@ -6,7 +6,7 @@
 
 [![pub package](https://img.shields.io/pub/v/flutter_termii.svg)](https://pub.dev/packages/flutter_termii)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
+[![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/flutter_termii)
 
 ---
 
