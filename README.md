@@ -81,4 +81,4 @@ The MIT License (MIT). Please see [License File](https://github.com/Oshinowo/flu
 
 ## Additional information
 
-Termii helps deliver great customer messaging experience. You can deep dive into the [full API Reference Documentation](https://developers.termii.com/) to seamlessly integrate it's messaging channels and verification functionalities into your product.
+Termii helps deliver great customer messaging experience. You can dive deep into the [full API Reference Documentation](https://developers.termii.com/) to seamlessly integrate it's messaging channels and verification functionalities into your product.
